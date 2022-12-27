@@ -16,18 +16,18 @@ class LoginScreenTopImage extends StatelessWidget {
           //"Sign in to continue"
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
-        SizedBox(height: defaultPadding *10),
+        SizedBox(height: defaultPadding *0),
         Row(
           children: [
             const Spacer(),
             Expanded(
-              flex: 50,
-           child: SvgPicture.asset("assets/icons/login-mr.svg"),
+              flex: 4,
+           child: SvgPicture.asset("assets/icons/Tabletlogin.svg"),
             ),
             const Spacer(),
           ],
         ),
-        SizedBox(height: defaultPadding * 2),
+        SizedBox(height: defaultPadding * 0),
       ],
     );
   }
