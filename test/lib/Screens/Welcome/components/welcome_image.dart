@@ -16,20 +16,20 @@ class WelcomeImage extends StatelessWidget {
           "WELCOME TO MUSHROOM FARM ",
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
-        SizedBox(height: defaultPadding * 2),
+        SizedBox(height: defaultPadding * 0),
         Row(
           children: [
             Spacer(),
             Expanded(
               flex: 8,
               child: SvgPicture.asset(
-                "assets/icons/welcome.svg",
+                "assets/icons/welcome1.svg",
               ),
             ),
             Spacer(),
           ],
         ),
-        SizedBox(height: defaultPadding * 2),
+        SizedBox(height: defaultPadding * 1),
       ],
     );
   }
